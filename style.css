@@ -1,7 +1,23 @@
-header h1 {
-   text-align: center;
+header .jumbotron {
+    background-color: tomato;
+    font-family: Calibri;
 }
 
-div header {
-    background-color: tomato;
+.display-desktop {
+    display: none;
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+}
+
+input[type="date"],
+button[type="submit"]{
+    margin-bottom: 15px;
+}
+
+@media (min-width: 1024px) {
+    .display-desktop {
+        display: table-cell;
+    }
 }
